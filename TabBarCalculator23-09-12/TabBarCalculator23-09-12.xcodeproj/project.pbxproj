@@ -13,6 +13,7 @@
 		AB1CD5E02AB0A3600047E2D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1CD5DE2AB0A3600047E2D8 /* Main.storyboard */; };
 		AB1CD5E22AB0A3610047E2D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1CD5E12AB0A3610047E2D8 /* Assets.xcassets */; };
 		AB1CD5E52AB0A3610047E2D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1CD5E32AB0A3610047E2D8 /* LaunchScreen.storyboard */; };
+		AB1CD5ED2AB0A62F0047E2D8 /* SubtractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1CD5EC2AB0A62F0047E2D8 /* SubtractionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AB1CD5E12AB0A3610047E2D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB1CD5E42AB0A3610047E2D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB1CD5E62AB0A3610047E2D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1CD5EC2AB0A62F0047E2D8 /* SubtractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				AB1CD5D82AB0A3600047E2D8 /* AppDelegate.swift */,
 				AB1CD5DA2AB0A3600047E2D8 /* SceneDelegate.swift */,
+				AB1CD5EC2AB0A62F0047E2D8 /* SubtractionViewController.swift */,
 				AB1CD5DC2AB0A3600047E2D8 /* ViewController.swift */,
 				AB1CD5DE2AB0A3600047E2D8 /* Main.storyboard */,
 				AB1CD5E12AB0A3610047E2D8 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				AB1CD5DD2AB0A3600047E2D8 /* ViewController.swift in Sources */,
 				AB1CD5D92AB0A3600047E2D8 /* AppDelegate.swift in Sources */,
 				AB1CD5DB2AB0A3600047E2D8 /* SceneDelegate.swift in Sources */,
+				AB1CD5ED2AB0A62F0047E2D8 /* SubtractionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
