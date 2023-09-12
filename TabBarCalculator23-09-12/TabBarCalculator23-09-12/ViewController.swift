@@ -19,6 +19,20 @@ class ViewController: UIViewController {
         resultLabel.text = ""
     }
 
-
+    @IBAction private func didTapAddButton(_ sender: Any) {
+        calculateSubtraction()
+        firstTextField.resignFirstResponder()
+        secondTextField.resignFirstResponder()
+    }
+    
+    private func calculateSubtraction() {
+        guard let firstValue = Int(firstTextField.text ?? ""),
+              let secondValue = Int(secondTextField.text ?? "")
+        else { return }
+        
+        let result = firstValue + secondValue
+        resultLabel.text = "\(result)"
+    }
+    
 }
 
