@@ -11,7 +11,6 @@ class SubtractionViewController: UIViewController {
 
     @IBOutlet private weak var firstTextField: UITextField!
     @IBOutlet private weak var secondTextField: UITextField!
-    @IBOutlet private weak var subtraction: UIButton!
     @IBOutlet private weak var resultLabel: UILabel!
 
     override func viewDidLoad() {
