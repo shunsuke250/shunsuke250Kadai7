@@ -65,7 +65,6 @@
                         <outlet property="firstTextField" destination="PTl-TU-aXy" id="li6-sV-Snz"/>
                         <outlet property="resultLabel" destination="4Fh-0v-Nb2" id="Kql-xo-qEc"/>
                         <outlet property="secondTextField" destination="ro1-vQ-qhU" id="N0u-bi-HNM"/>
-                        <outlet property="subtraction" destination="UtK-9b-gVp" id="lFY-G5-nSv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vEB-c6-Od0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -126,7 +125,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="zsO-kB-JGe"/>
                     <connections>
-                        <outlet property="addButton" destination="p1S-he-Nwn" id="m1T-5A-nN2"/>
                         <outlet property="firstTextField" destination="T7e-G5-2vd" id="Z7s-Rj-Qx3"/>
                         <outlet property="resultLabel" destination="9B6-nQ-jv7" id="2si-Fg-ewS"/>
                         <outlet property="secondTextField" destination="9hc-Ma-4Zs" id="Ziy-07-9Vy"/>
